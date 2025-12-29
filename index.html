@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>GM特权小站 - 发现精彩游戏</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Background Image Wall -->
+    <div id="bg-image-wall"></div>
+    
+    <!-- Background Animation Container -->
+    <div id="background-container"></div>
+    
+    <!-- Background Blur Mask -->
+    <div id="background-mask"></div>
+    
+    <div class="container">
+        <div class="content-wrapper">
+            <h1 class="main-title">GM特权小站</h1>
+            <p class="subtitle">恭喜你！找到了新大陆 · 发现精彩游戏</p>
+            <div class="form-container">
+                <label for="secret-code" class="input-label">请输入邀请码（暗号）</label>
+                <div class="input-wrapper">
+                    <input type="text" id="secret-code" placeholder="请输入暗号..." autocomplete="off" />
+                </div>
+                <button id="submit-btn" class="submit-btn">提交</button>
+            </div>
+        </div>
+        <footer class="footer">© 2025 游戏展示</footer>
+    </div>
+    
+    <script>
+        window.__INDEX_TEXT__ = {
+            "submit_text": "提交",
+            "btn_verifying": "正在验证...",
+            "alert_empty_code": "请输入暗号！",
+            "alert_verify_failed": "暗号错误",
+            "alert_network_error": "网络或服务器错误，请稍后再试"
+        };
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
